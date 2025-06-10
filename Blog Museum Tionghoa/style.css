@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(to right, rgb(5, 129, 202), rgb(0, 179, 255));
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display :flex;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    background: rgb(118, 165, 245);
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: start;
+    gap :20px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.source {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    gap :10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.foto {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    box-shadow: 3px 3px 5px black;
+    scroll-snap-align: center;
+}
+
+.content {
+    display: flex;
+    gap :10px;
+    flex-direction: column;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+}
+
+.item ::-webkit-scrollbar() {
+    display: none;
+}
+
+.isi {
+    background: linear-gradient(to right, whitesmoke, white);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.teks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cobain {
+    background-color: white;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 3px 3px 5px black;
+    width: auto;
+    height: 150px;
+}
+
+.pemberitahuan {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    box-shadow: 3px 3px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.lisensi {
+    font-family: Arial, Helvetica, sans-serif;
+}
