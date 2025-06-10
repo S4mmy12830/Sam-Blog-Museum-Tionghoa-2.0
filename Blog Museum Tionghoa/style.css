@@ -15,7 +15,7 @@ body {
     background: rgb(118, 165, 245);
     width: auto;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 5px;
     justify-content: start;
     gap :20px;
     position: sticky;
